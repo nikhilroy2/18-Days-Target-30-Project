@@ -1,0 +1,91 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  text-shadow: 1px 2px 3px blue;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: radial-gradient(#333, #222);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  font-size: 1.2rem;
+}
+
+.container {
+  padding: 18px;
+  -webkit-box-shadow: 0px 0px 50px black, 2px 5px 10px inset white;
+          box-shadow: 0px 0px 50px black, 2px 5px 10px inset white;
+  width: 300px;
+  height: 400px;
+  border-radius: 12px;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(#221));
+  background: linear-gradient(black, #221);
+}
+
+.container .input_field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  color: white;
+}
+
+.container .input_field label {
+  padding: 5px 3px;
+}
+
+.container .input_field input {
+  border: none;
+  outline: none;
+  padding: 8px 5px;
+  display: inline-block;
+  font-size: 1.2rem;
+  width: 100%;
+  background: #222;
+  color: white;
+}
+
+.container .input_field button {
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background: #225;
+  color: white;
+}
+
+.container .result {
+  text-align: center;
+  padding: 50px;
+  font-size: 5rem;
+  color: white;
+}
+
+.project {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  background: #444;
+  color: #fff;
+  text-shadow: 1px 1px 2px red;
+  padding: 8px;
+}
+/*# sourceMappingURL=style.css.map */
